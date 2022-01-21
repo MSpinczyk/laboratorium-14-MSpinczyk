@@ -33,5 +33,3 @@ def matrix_multiplication(m1,m2):
             for k in range(len(m2)):
                 result[i][j] += m1[i][k] * m2[k][j]
     return result
-
-print(matrix_multiplication([[1,2,3],[1,2,3],[1,2,3]],[[1,1,1],[1,1,1],[1,1,1]]))

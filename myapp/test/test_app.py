@@ -45,7 +45,7 @@ def test_bubble_sort(sample, expected_output):
 
 
 testdata = [
-    ([[1,2,3]],[[1],[1],[1]], [[6]])
+    ([[1,2,3],[1,2,3],[1,2,3]], [[1,1,1],[1,1,1],[1,1,1]], [[6,6,6],[6,6,6],[6,6,6]])
     ]
 
 @pytest.mark.parametrize('m1, m2, expected_output', testdata)
