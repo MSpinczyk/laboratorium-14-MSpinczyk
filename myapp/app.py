@@ -13,6 +13,8 @@ def text_contain_word(word: str, text: str):
     
     return word in text
 
+# Funkcje napisane przeze mnie znajdują się poniżej
+
 def bubble_sort(list_1: list):
     if not isinstance(list_1,list):
         return None

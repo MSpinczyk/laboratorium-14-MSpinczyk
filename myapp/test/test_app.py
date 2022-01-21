@@ -28,6 +28,7 @@ def test_text_contain_word(sample, word, expected_output):
 
     assert text_contain_word(word, sample) == expected_output
 
+# Testy napisane przeze mnie znajdują się poniżej
 
 testdata = [
     ([4,3,7,9,1,4,6,8,1], [1,1,3,4,4,6,7,8,9]),
@@ -52,3 +53,8 @@ testdata = [
 def test_matrix_multiplication(m1, m2, expected_output):
 
     assert matrix_multiplication(m1, m2) == expected_output
+
+# Zgodnie z oczekiwaniami wszystkie testy oprócz jednego przeszły, jeden celowo nie przeszedł jest to ten z konspektu do zajęć.
+# Testy są bardzo przydatne w momencie gdy znamy wynik jakiejś operacji a chcemy zobaczyć czy nasz kod działa poprawnie.
+# Na zajęciach zapoznałem się z tymi pytestami przez co w przyszłości nie będę miał problemów z ich implementacja, może nawet dla
+# bardziej złożonych funkcji.
